@@ -1,0 +1,16 @@
+{
+  "name": "cx-ps-cms-as-code-demo",
+  "version": "1.0.0",
+  "description": "Scripts that demonstrate the CMS as Code methodology",
+  "main": "1-expand.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "contentful-management": "^8.2.2",
+    "dotenv": "^16.0.3"
+  }
+}
