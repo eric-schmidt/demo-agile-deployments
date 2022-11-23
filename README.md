@@ -1,4 +1,4 @@
-# CMS as Code Demo
+# Agile Deployments Demo
 
 This repo contains example scripts that demonstrate the expand/contract flow shown in our Agile Deployment slides. They demonstrate:
 
