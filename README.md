@@ -1,6 +1,6 @@
 # Agile Deployments Demo
 
-This repo contains example scripts that demonstrate the expand/contract flow shown in our Agile Deployment slides. They demonstrate:
+This repo contains example scripts that demonstrate the expand/contract flow shown in Contentful's Agile Deployment training slides. They demonstrate:
 
 - Initial form of the content model
 - Expansion of a content type
