@@ -16,6 +16,8 @@ import chalk from 'chalk';
     };
     entry = await entry.update();
     entry = await entry.publish();
+    // Log out successful content type creation.
+    console.log(chalk.green(`Linked Author to Blog Post (${entry.sys.id})`));
   }
 })();
 
@@ -48,7 +50,8 @@ const createEntryReference = async (contentType, entry) => {
         })
         .then((entry) => entry.publish())
         .then((entry) => {
-          console.log(chalk.green(`Entry (${contentType}) created: ${entry.sys.id}`));
+          // Log out successful creation of Author entry.
+          console.log(chalk.green(`Author entry created: ${entry.sys.id}`));
           return {
             sys: {
               type: 'Link',

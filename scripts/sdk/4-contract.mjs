@@ -1,4 +1,5 @@
 import { environment } from '../../lib/contentful.mjs';
+import chalk from 'chalk';
 
 // This script removes the legacy Author field from the Blog Post content type.
 (async function () {
@@ -12,4 +13,6 @@ import { environment } from '../../lib/contentful.mjs';
   blogPost = await blogPost.update();
   // Publish the content type.
   blogPost = await blogPost.publish();
+  // Log out successful removal of Author text field from Blog Post content type.
+  console.log(chalk.green(`Author text field deleted from Blog Post content type.`));
 })();

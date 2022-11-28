@@ -1,4 +1,5 @@
 import { environment } from '../../lib/contentful.mjs';
+import chalk from 'chalk';
 
 // This script disables the legacy Author field on the Blog Post content type.
 (async function () {
@@ -16,4 +17,6 @@ import { environment } from '../../lib/contentful.mjs';
   blogPost = await blogPost.update();
   // Publish the content type.
   blogPost = await blogPost.publish();
+  // Log out successful disable of Author text field on Blog Post.
+  console.log(chalk.green(`Author text field disabled on Blog Post content type.`));
 })();

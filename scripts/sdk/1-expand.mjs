@@ -1,4 +1,5 @@
 import { environment } from '../../lib/contentful.mjs';
+import chalk from 'chalk';
 
 (async function () {
   // Create the Author content type.
@@ -40,6 +41,8 @@ import { environment } from '../../lib/contentful.mjs';
   author = await author.update();
   // Publish the content type.
   author = await author.publish();
+  // Log out successful content type creation.
+  console.log(chalk.green(`Created Author content type.`));
 
   // Update the Blog Post content type.`
   let blogPost = await environment.getContentType('blogPost');
@@ -65,4 +68,6 @@ import { environment } from '../../lib/contentful.mjs';
   blogPost = await blogPost.update();
   // Publish the content type.
   blogPost = await blogPost.publish();
+  // Log out successful field addition to Blog Post content type.
+  console.log(chalk.green(`Added Author reference field to Blog Post content type.`));
 })();
