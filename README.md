@@ -27,7 +27,7 @@ This should all start with a completely blank space, so as to illustrate creatin
 5. Create a new alias for `master`, renaming the master environment `release-1`.
 6. Create a new alias for called `dev`, and point this alias at the `feature-1` environment.
 7. Copy `.env.example`, renaming to `.env`, and update variables to reflect your current Contentful values.
-8. Run `npm install` to install dependencies.
+8. Run `npm install` to install dependencies. Note: you may need to remove `node_modules` and re-run `npm install` if you've changed any of the values in the `.env` file -- for some reason things seem to get cached 🤔
 
 ## Expand
 
