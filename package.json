@@ -1,7 +1,7 @@
 {
-  "name": "cx-ps-cms-as-code-demo",
+  "name": "demo-agile-deployments",
   "version": "1.0.0",
-  "description": "Scripts that demonstrate the CMS as Code methodology",
+  "description": "Scripts that demonstrate Contentful's Agile Deployments methodology.",
   "main": "1-expand.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
