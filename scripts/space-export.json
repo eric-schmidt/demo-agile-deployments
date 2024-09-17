@@ -4348,7 +4348,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/d8ycalopgpj0/1drvkIsS6fZUQwswqOnLuS/658291151b847741af706a1eccd4152f/500.jpeg",
+            "url": "https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg",
             "details": {
               "size": 45671,
               "image": {
@@ -4356,7 +4356,7 @@
                 "height": 500
               }
             },
-            "fileName": "500.jpeg",
+            "fileName": "kitten.jpeg",
             "contentType": "image/jpeg"
           }
         }
