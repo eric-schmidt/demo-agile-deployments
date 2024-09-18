@@ -26,7 +26,8 @@ This should all start with a completely blank space, so as to illustrate creatin
 4. Create a new alias for `master`, renaming the master environment `release-1`.
 5. Create a new alias for called `sandbox`, and point this alias at the `feature-1` environment.
 6. Copy `.env.example`, renaming to `.env`, and update variables to reflect your current Contentful values.
-7. Run `npm install` to install dependencies. Note: you may need to run `rm -rf node_modules` and re-run `npm install` if you've changed any of the values in the `.env` file -- for some reason things seem to get cached 🤔
+7. Run `nvm use` to ensure you are running the proper version of node.
+8. Run `npm install` to install dependencies. Note: you may need to run `rm -rf node_modules` and re-run `npm install` if you've changed any of the values in the `.env` file -- for some reason things seem to get cached 🤔
 
 ## Expand
 
