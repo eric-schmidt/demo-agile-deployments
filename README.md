@@ -21,7 +21,7 @@ This should all start with a completely blank space, so as to illustrate creatin
 ## Import Content
 
 1. Create a new Space called _Demo - Agile Deployments_ (or whatever you'd like), deleting the existing one if already present.
-2. Import data into the master environment of your newly created space via `contentful space import --space-id <YOUR SPACE ID> --environment-id master --content-file scripts/space-export.json`
+2. Import data into the master environment of your newly created space via `contentful space import --space-id <YOUR SPACE ID> --environment-id master --content-file space-export.json`
 3. Create a new environment based off of `master` called `feature-1`.
 4. Create a new alias for `master`, renaming the master environment `release-1`.
 5. Create a new alias for called `sandbox`, and point this alias at the `feature-1` environment.
